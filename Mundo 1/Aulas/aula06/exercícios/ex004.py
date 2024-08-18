@@ -1,0 +1,10 @@
+tipo = input('Digite algo: ')
+print('O tipo primitivo desse valor é',type(tipo))
+print('Só têm espaços?', tipo.isspace())
+print('É um número?', tipo.isnumeric())
+print('É alfanumérico?',tipo.isalnum())
+print('É alfabético?', tipo.isalpha())
+print('Está em letras maiúsculas?', tipo.isupper())
+print('Está em letras minúsculas?', tipo.islower())
+print('Está capitalizado (ter letras M e m)?', tipo.istitle())
+# exercício referente à aula 6
